@@ -33,7 +33,10 @@ Retail Pulse is a backend service designed to process thousands of images collec
 
 - Docker and Docker Compose installed.
 - Node.js (v18 or higher) for local development.
-
+- ```npm install```
+- Set up enivornment variables (see .env.example)
+- ```npm run build```
+- Run tests: ```npm test```
 ---
 
 ### Installation
