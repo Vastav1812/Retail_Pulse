@@ -71,7 +71,7 @@ Creates a new image processing job for store visit images.
          "visit_time": "time of store visit"
       },
       {
-         "store_id": "S01408764",
+         "store_id": "S00339218",
          "image_url": [
             "https://www.gstatic.com/webp/gallery/3.jpg"
          ],
@@ -95,7 +95,7 @@ Creates a new image processing job for store visit images.
 - **Content:**
 ```json
 {
-    "job_id": 123
+    "job_id": 1
 }
 ```
 
@@ -123,7 +123,7 @@ Retrieves the status of a previously submitted job.
   ```json
   {
       "status": "completed",
-      "job_id": "123"
+      "job_id": "1"
   }
   ```
 
@@ -133,7 +133,7 @@ Retrieves the status of a previously submitted job.
   ```json
   {
       "status": "failed",
-      "job_id": "123",
+      "job_id": "1",
       "error": [
           {
               "store_id": "S00339218",
@@ -153,7 +153,7 @@ Retrieves the status of a previously submitted job.
 
 ## System Architecture
 
-![System Architecture Diagram](placeholder_for_architecture_diagram.png)
+![System Architecture Diagram](screenshots/placeholder_for_architecture_diagram.png)
 
 The system consists of:
 - API Gateway: Handles incoming requests and routes them to appropriate services
