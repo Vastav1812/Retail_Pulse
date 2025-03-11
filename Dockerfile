@@ -14,7 +14,7 @@ COPY tsconfig.json ./
 RUN npm install
 
 COPY . .
-COPY dist/utils/StoreMaster.csv .
+
 
 RUN npm run build
 
