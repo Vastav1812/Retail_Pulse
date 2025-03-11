@@ -17,7 +17,7 @@ Retail Pulse is a backend service designed to process thousands of images collec
 ---
 
 ## Technologies Used
-
+- **IDE**: WEBSTORM (JETBRAINS)
 - **Backend**: Node.js, TypeScript, Express
 - **Database**: PostgreSQL
 - **Caching**: Redis
